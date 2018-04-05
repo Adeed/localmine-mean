@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "fname": "Mirza",
+            "lname": "Asim",
+            "email": "asim@email.com",
+            "pass": "1234",
+            "Date": "22",
+            "mine_pwr": 150,
+            "accnt_blnce": 0,
+            "draw_amnt": 0
+        },
+        {
+            "id": 1,
+            "fname": "Touqeer",
+            "lname": "Khan",
+            "email": "touqeer@email.com",
+            "pass": "1234",
+            "Date": "22",
+            "mine_pwr": 150,
+            "accnt_blnce": 0,
+            "draw_amnt": 0
+        },
+        {
+            "id": 2,
+            "fname": "Nouman",
+            "lname": "Khan",
+            "email": "nouman@email.com",
+            "pass": "1234",
+            "Date": "22",
+            "mine_pwr": 150,
+            "accnt_blnce": 0,
+            "draw_amnt": 0
+        },
+        {
+            "id": 3,
+            "fname": "Mansoor",
+            "lname": "Khan",
+            "email": "mansoor@email.com",
+            "pass": "1234",
+            "Date": 22,
+            "mine_pwr": 150,
+            "accnt_blnce": 0,
+            "draw_amnt": 0
+        }
+    ]
+}

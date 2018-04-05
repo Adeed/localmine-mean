@@ -1,0 +1,19 @@
+
+<h1 class="text-center">Announcements</h1>
+<div *ngFor="let n of news" class="card text-center">
+
+  <div class="card-header">
+    <h3 class="card-title">{{n.heading}}</h3>
+  </div>
+  <img class="card-img-top"  [src]="n?.image" alt="Card image cap">
+ 
+  <div class="card-block">
+    <br>
+    <p class="card-text">{{n.content}}</p>
+    <br><br>
+  </div>
+  <div class="card-footer">
+    {{n.date}}
+  </div>
+
+</div>

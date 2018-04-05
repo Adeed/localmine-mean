@@ -1,0 +1,44 @@
+#hero {
+    border-bottom: 10px solid #70cc78;
+    background-color: rgba(87, 93, 102, 0.363);
+}
+#hero>.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+#hero.home>.container {
+	height: 315px;
+}
+#hero:not(.home)>.container h1 {
+	margin: 0;
+}
+#hero .stats {
+	background-color: rgba(87,93,102,.6);
+}
+#hero .stats .container {
+	padding: 18px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#hero .stats .stat-box {
+	text-align: center;
+}
+#hero .stats .value {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	color: #fff;
+	line-height: 1;
+	margin-bottom: 8px;
+}
+#hero .stats .label {
+	padding-top: 8px;
+	border-top: 2px solid #70cc78;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #70cc78;
+}

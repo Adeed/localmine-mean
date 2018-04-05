@@ -1,0 +1,19 @@
+<h1 class="text-center">Browse Through Our Packages</h1>
+<div class="card-group">
+  <div *ngFor="let package of packages" class="card">
+    <div  class="card-block">
+      <h2 class="card-title">{{package.name}}</h2>
+      <h3>{{package.cost}}</h3>
+    </div>
+    <div class="card-footer">
+        <h4>{{package.hashes}} MH/S</h4>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item">{{package.duration}} Months Ethereum Mining *</li>
+      <li class="list-group-item">No maintenance fee</li> 
+      <li class="list-group-item">No Electricity fee</li> 
+      <li class="list-group-item"> Minimum Pay Out {{package.payout}}</li>
+      <li class="list-group-item">{{package.reff}} per Refreal</li>
+    </ul>
+  </div>
+</div>

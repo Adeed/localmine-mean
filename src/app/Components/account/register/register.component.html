@@ -1,0 +1,13 @@
+<div class="card card-container">
+    <form class="form-group" #regForm="ngForm" (ngSubmit)="regUser(regForm.value)">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <input type="text" #fname name="fname" ngModel class="form-control" placeholder="First Name" required>
+        <input type="text" #lname name="lname" ngModel class="form-control" placeholder="Last Name" required>
+        <input type="email" #email name="email" ngModel class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" #pass name="pass" ngModel class="form-control" placeholder="Password" required>
+        <input type="password" #repass name="repass" ngModel class="form-control" placeholder="Confirm Password" required>
+        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register</button>
+    </form>
+    <a class="nav-link" routerLink="/Login">Click here to login</a>
+</div>

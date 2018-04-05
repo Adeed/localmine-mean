@@ -1,0 +1,8 @@
+.card{
+    margin: 10px;
+    background-color: #783ec35e;
+}
+.card-footer{
+    color: #ffffff;
+    background-color: rgba(70, 10, 60, 0.45);
+}

@@ -1,0 +1,49 @@
+<div class="container">
+        <div class="row" *ngFor="let post of posts">
+          <div class="card card-block">
+            <h4 class="card-title">{{ post.title }}</h4>
+            <p class="card-text">{{post.body}}</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+<h2 class="text-center">Your Dashboard</h2>
+    <h3>LocalMinePro</h3> is a cloud hashing platform. This means you can participate in Cryptocurrency mining without maintenance
+    or power expense.Higher you invest, more you earn.
+
+    <h3>Investment Details</h3>
+    We are offering registration for 4 months, 6 months and 10 months of validation period. The minimum investment we accept
+    is $100, for which we would give you 22 MH/s for Ethereum cloud mining.
+    <br>
+    <br>
+    <div class="text-center">
+    <h2>Statistics and account overview</h2>
+    <table class="table table-hover">
+        <tbody>
+            <tr>
+                <th>Username:</th>
+                <td>{{data.fname}} {{data.lname}}</td>
+            </tr>
+
+            <tr>
+                <th>Account Balance:</th>
+                <td>{{data.accnt_blnce}} $</td>
+            </tr>
+            <tr>
+                <th>Total mining power:</th>
+                <td>{{data.mine_pwr}} GH/s</td>
+            </tr>
+
+            <tr>
+                <th>Value of mining power:</th>
+                <td>0.00037500 BTC</td>
+            </tr>
+            <tr>
+                <th>Amount withdrawn:</th>
+                <td data-btc="0.00000000">0.00000000 BTC</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

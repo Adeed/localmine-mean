@@ -1,0 +1,49 @@
+{
+  "Packages": [
+    {
+      "name": "Starter",
+      "cost": "$100",
+      "hashes": "22",
+      "duration": "4",
+      "payout": "$50",
+      "reff": "5%"
+    },
+    {
+      "name": "Economy",
+      "cost": "$200",
+      "hashes": "30",
+      "duration": "6",
+      "payout": "$80",
+      "reff": "7%"
+    },
+    {
+      "name": "Business",
+      "cost": "$600",
+      "hashes": "50",
+      "duration": "10",
+      "payout": "$150",
+      "reff": "10%"
+    }
+  ],
+
+  "News": [
+    {
+      "heading": "BTC gone up",
+      "image": "/assets/images/usebitcoin-4096x2253.jpg",
+      "content": "BTC gone up,up and up",
+      "date": "15,November 2017"
+    },
+    {
+      "heading": "Etherium gone up",
+      "image": "/assets/images/usebitcoin-4096x2253.jpg",
+      "content": "Etherium gone up, up and up",
+      "date": "18,November 2017"
+    },
+    {
+      "heading": "BTC record high",
+      "image": "/assets/images/usebitcoin-4096x2253.jpg",
+      "content": "BTC record high, very high",
+      "date": "20,November 2017"
+    }
+  ]
+}
